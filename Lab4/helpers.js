@@ -207,6 +207,11 @@ const createValidator = async (title, plot, genres, rating, studio, director, ca
     runtime = runtime.trim();
     runtime = runtime.replace(/ +(?= )/g,'');
 
+    // To check the format of the runtime
+    if (!/[0-9]+h\s+[0-9]+min/.test(runtime)){
+        throw "Runtime not in proper format";
+    }
+
     // To check for decimal number in runtime
     if (!(runtime.indexOf(".") === -1)){
         throw "Runtime must be a positive whole number and not decimal.";
