@@ -22,7 +22,8 @@ const createReview = async (
 
   //Date for the review
   let currentDate = new Date();
-  let month = currentDate.getMonth().toString();
+  let month = currentDate.getMonth() + 1;
+  month = month.toString();
   let date = currentDate.getDate().toString();
   let year = currentDate.getFullYear().toString();
   currentDate = month + "/" + date + "/" + year;
