@@ -1,0 +1,11 @@
+<h2 class="heading searchDecoration">{{searchPersonName}}</h2>
+<main>       
+    <ul>
+        {{#each searchResult}}
+            <li>
+                <a href="/persondetails/{{id}}">{{firstName}} {{lastName}}</a>
+            </li>
+        {{/each}}
+    </ul>
+    <a href="/">Make another search</a>
+</main>

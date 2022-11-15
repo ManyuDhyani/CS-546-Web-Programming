@@ -1,0 +1,140 @@
+/*This file should have CSS rulesets */
+
+body{
+    width: auto;
+    margin: auto;
+    font-family: "Times New Roman";
+    background-color: #657989;
+    padding: 1em;
+}
+
+h1{
+    color: #23d884;
+}
+
+h2{
+    font-style: italic;
+}
+
+ul li{
+    list-style-type: none;
+    margin-top: 1em;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+label{
+    margin-top: 1em;
+}
+
+input{
+    margin-top: 1em;
+    width: 600px;
+    height: 40px;
+    border-radius: 500px;
+    padding: 1em;
+    border-color: #e6e4f7;
+}
+
+.Btn{
+    margin-top: 1em;
+    background-color: #23d884;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 500px;
+}
+.Btn:hover{
+    background-color: #b6ee33;
+    border-radius: 5px;
+
+}
+
+.description{
+    text-align: justify;
+    color:#b6ee33;
+}
+
+p {
+    font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: expanded;
+}
+
+.heading {
+    font-size:40px;
+    border-bottom: 3px solid #f9dd94;
+}
+
+.searchDecoration {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+dl {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+dt {
+    float: left;
+    width: 50%;
+    background: #cc0;
+    padding: 0;
+    margin: 0;
+}
+
+dd {
+    float: left;
+    width: 50%;
+    background: rgb(221, 133, 0);
+    padding: 0;
+    margin: 0;
+}
+
+.parameter {
+    font-weight: bold;
+}
+
+.result {
+    font-style: italic;
+    font-family: "Times New Roman";
+    font-weight: 700;
+}
+
+a:link {
+    color: red;
+    background-color: rgb(214, 214, 16);
+  }
+
+a:visited {
+    color: green;
+    background-color: rgb(211, 225, 225);
+  }
+
+a:hover {
+    color: hotpink;
+    background-color: rgb(5, 53, 5);
+  }
+
+a:active {
+    color: blue;
+    background-color: rgb(147, 21, 84);
+  }
+
+.not-found{
+    color: red;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.error {
+    color: white;
+    font-weight: bold;
+}
